@@ -1,0 +1,467 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #013c7a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el título H1 */
+h1 {
+    background-color: 013c7a; /* Fondo azul */
+    color: #fff; /* Texto blanco */
+    font-weight: bold; /* Letra en negrita */
+    padding: 10px; /* Espaciado interno */
+    font-size: 50px; /* Tamaño de la fuente */
+    width: 70%; /* Ancho del título */
+    margin: 0 auto; /* Centrar horizontalmente */
+    -webkit-text-stroke-width: 1px; /* Ancho del borde */
+    -webkit-text-stroke-color: #ffffff00; /* Color del borde */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.322); /* Sombra del texto */
+}
+
+/* Estilos para el video de fondo */
+#video-fondo {
+    position: fixed; /* Posición fija para cubrir toda la página */
+    top: -12%;
+    left: -3%;
+    width: 115%; /* Tamaño completo */
+    height: 125%;
+    z-index: -1; /* Colocar el video detrás de otros elementos */
+    opacity: 0.5; /* Transparencia del video */
+}
+
+
+
+/* Estilos para el contenedor de inicio de sesión */
+#login-container {
+    width: 300px; /* Ancho del contenedor */
+    margin: 5% auto; /* Centrar horizontalmente */
+    text-align: center; /* Alinear texto al centro */
+}
+
+/* Estilos para el cuadro de inicio de sesión */
+#login-section {
+    background-color: rgba(255, 255, 255, 0.322); /* Fondo blanco semitransparente */
+    padding: 30px; /* Espaciado interno */
+    border-radius: 20px; /* Bordes semirredondos */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.493); /* Sombra ligera */
+    font-size: 20px 
+}
+
+/* Estilos para el título "Iniciar Sesión" */
+#login-section h2 {
+    font-size: 30px; /* Tamaño de letra */
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.473);
+}
+
+#login-section input[type="text"]
+#login-section input[type="password"]{
+    text-align: center;
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espaciado inferior */
+    font-size: 12px; /* Tamaño de la fuente */
+    width: 200px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.226); /* Sombra ligera */
+}
+
+/* Estilos para el botón de ingresar */
+#login-section button {
+    background-color: #007bff; /* Color de fondo azul-rey */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cursor al pasar por encima */
+    border-radius: 20px; /* Bordes semirredondos */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479); /* Sombra ligera */
+    margin-top: 5%;
+}
+#login-section button:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen en un 20% */
+}
+#login-section button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar por encima */
+}
+
+
+
+/* Estilos para la imagen */
+#logo {
+    width: 340px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 600px; /* Posición desde arriba */
+    left: 790px; /* Posición desde la izquierda */
+    opacity: 50; /* Opacidad inicial */
+    transition: opacity 0.10s ease; /* Transición de opacidad suave */
+}
+
+
+
+/* Estilos para el pie de página */
+footer {
+    background-color: rgba(0, 0, 0, 0.068); /* Fondo traslúcido */
+    color: #fff; /* Texto blanco */
+    font-weight: bold; /* Texto en negrilla */
+    text-align: center; /* Alinear texto al centro */
+    padding: 6px; /* Espaciado interno superior e inferior */
+    position: fixed; /* Posición fija */
+    bottom: 0; /* Alineación al fondo */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para el texto de derechos de autor */
+footer p {
+    margin: 0; /* Eliminar margen */
+    font-size: 16px; /* Tamaño de la fuente */
+}
+
+
+/* Estilos para el título "Bienvenidos" */
+#productos-section h2 {
+    text-align: center; /* Alinear texto al centro */
+    font-size: 55px; /* Tamaño de la fuente */
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.329); /* Sombra del texto */
+    margin-top: -90px; /* Margen superior */
+    margin-bottom: -0.8%;
+}
+#productos-section p {
+    background-color: #ffffffc4;
+    padding: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color: #11066e;
+    text-shadow: 2px 6px 4px rgba(0, 0, 0, 0.329); /* Sombra del texto */
+}
+
+
+/* Estilos para el título H3 */
+#productos-section h3 {
+    font-size: 42px; /* Tamaño de la fuente */
+    font-weight: bold; /* Texto en negrilla */
+    margin-top: -10px; /* Margen superior */
+    text-shadow: 2px 8px 4px rgba(0, 0, 0, 0.384); /* Sombra del texto */
+    text-align: center;
+}
+
+
+/* Estilos para el listado de carpetas */
+#carpetas-lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Alineación horizontal en el centro */
+}
+
+#carpetas-lista li {
+    width: 190px; /* Ancho de cada elemento */
+    height: 150px; /* Altura de cada elemento */
+    margin: 2px; /* Margen entre elementos */
+    border-radius: 20px; /* Borde redondeado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover; /* Cubrir completamente el área del elemento */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.479); /* Sombra ligera */
+    mix-blend-mode: 0 multiply; /* Cambiar el modo de mezcla según sea necesario */
+}
+
+#carpetas-lista a:hover{
+color: #ff0000; /* Color del texto */
+}
+#carpetas-lista li a {
+    display: block; /* Hacer que el enlace ocupe todo el ancho del contenedor */
+    height: 100%; /* Hacer que el enlace ocupe toda la altura del contenedor */
+    text-decoration: none; /* Quitar la subrayado del texto */
+}
+#carpetas-lista li:hover {
+    transform: scale(1.3); /* Aumenta el tamaño de la imagen en un 20% */
+}
+#carpetas-lista li:nth-child(1) { 
+    background-image: url('FOTOS/ESPEROCT 1000 UI 1PC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+    
+}
+
+#carpetas-lista li:nth-child(2) { 
+    background-image: url('FOTOS/ESPEROCT 1500 UI 1PC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(3) { 
+    background-image: url('FOTOS/ESPEROCT 2000 UI 1PC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(4) { 
+    background-image: url('FOTOS/ESPEROCT 3000 UI 1PC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(5) { 
+    background-image: url('FOTOS/GLUCAGEN 1 MG.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(6) { 
+    background-image: url('FOTOS/LEVEMIR FLEXPEN 5X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(7) { 
+    background-image: url('FOTOS/NOVOEIGHT 1000UI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(8) { 
+    background-image: url('FOTOS/NOVOEIGHT 1500UI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(9) { 
+    background-image: url('FOTOS/NOVOEIGHT 250UI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(10) { 
+    background-image: url('FOTOS/NOVOEIGHT 500UI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(11) { 
+    background-image: url('FOTOS/NOVOFINE 31G X 6MM 100PCS.NMI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(12) { 
+    background-image: url('FOTOS/NOVOFINE 32G X 4MM 100PCS.NMI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(13) { 
+    background-image: url('FOTOS/NOVOLIN N 100 UI.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(14) { 
+    background-image: url('FOTOS/NOVOLIN R 100 IU.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(15) { 
+    background-image: url('FOTOS/NOVORAPID 100 U.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(16) { 
+    background-image: url('FOTOS/NOVORAPID FLEXPEN 5X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(17) { 
+    background-image: url('FOTOS/NOVOSEVEN RT 1 MG.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(18) { 
+    background-image: url('FOTOS/NOVOSEVEN RT 2 MG.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(19) { 
+    background-image: url('FOTOS/OZEMPIC 0.5MG 1PC.W.NF+6.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(20) { 
+    background-image: url('FOTOS/OZEMPIC 1MG 1PC. W.NF+4PCS.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(21) { 
+    background-image: url('FOTOS/RYBELSUS 14MG 30 TAB BC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(22) { 
+    background-image: url('FOTOS/RYBELSUS 3MG 30TBL BC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(23) { 
+    background-image: url('FOTOS/RYBELSUS 7MG 30 TBL BC.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(24) { 
+    background-image: url('FOTOS/SAXENDA 6 MGML 1X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(25) { 
+    background-image: url('FOTOS/SAXENDA 6 MGML 3X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(26) { 
+    background-image: url('FOTOS/TRESIBA FLEXTOUCH U100 1X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(27) { 
+    background-image: url('FOTOS/VICTOZA 6 MG.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+#carpetas-lista li:nth-child(28) { 
+    background-image: url('FOTOS/XULTOPHY 100 U 1X3 ML.png'); /* Ruta de la imagen del segundo producto */
+    display: block; /* Para que el enlace cubra toda la imagen */
+    text-align: center; /* Centrar el texto dentro del enlace */
+    color: #0c10df; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    font-weight: bold; /* Negrita */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.281); /* Sombra del texto */
+}
+/* Estilos para el contenedor del buscador */
+#buscador-container {
+    margin-bottom: 20px; /* Espacio debajo del buscador */
+    text-align: center; /* Alineación centrada del texto y el input */
+}
+
+/* Estilos para el texto "Buscar:" */
+#buscador-container label {
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 1px; /* Espacio entre el texto y el input */
+    text-shadow: 2px 12px 4px rgba(0, 0, 0, 0.527); /* Sombra del texto */
+}
+
+/* Estilos para el campo de búsqueda */
+#buscador {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #007bff; /* Color del borde del input */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 300px; /* Ancho del input */
+    transition: border-color 0.3s ease; /* Transición suave para el color del borde */
+}
+
+/* Estilos para el placeholder del campo de búsqueda */
+#buscador::placeholder {
+    color: #999; /* Color del texto de marcador de posición */
+}
+
+/* Estilos para el campo de búsqueda al enfocar */
+#buscador:focus {
+    outline: none; /* Elimina el contorno al enfocar */
+    border-color: #0056b3; /* Cambia el color del borde al enfocar */
+}
