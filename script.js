@@ -1,6 +1,6 @@
 // Objeto para almacenar usuarios y contraseñas
 const usuarios = {
-    LFCZ: '1234',
+    LFCZ: '12345',
     usuario2: 'contraseña2',
     usuario3: 'contraseña3',
     // Añade más usuarios y contraseñas según sea necesario
