@@ -46,7 +46,7 @@ function mostrarPDFs(producto, event) {
     const pdfList = document.createElement('ul');
 
     // Ruta local donde se encuentran los PDFs del producto seleccionado
-    const rutaLocal = 'C:/Users/LuisPcamer07/Documents/PAGINA WEB NOVO/PRODUCTOS/' + ESPEROCT 1000 UI 1PC + '/';
+    const rutaLocal = 'https://github.com/LuisPcGamer07/Certificados-de-Analisis-Novo-Nordisk-Colombia-sas/tree/main/PRODUCTOS/ESPEROCT%201000%20UI%201PC' + PRODUCTO + '/';
 
     // Aquí agregamos los enlaces a los PDFs
     const pdfs = obtenerArchivosEnDirectorio(rutaLocal); // Función para obtener los nombres de los archivos en el directorio
